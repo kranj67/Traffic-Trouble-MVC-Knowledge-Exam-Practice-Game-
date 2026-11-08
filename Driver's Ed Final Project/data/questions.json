@@ -1,0 +1,542 @@
+[
+  {
+    "id": "q01",
+    "number": 1,
+    "chapter": 1,
+    "topic": "Licensing & GDL",
+    "question": "Within how long must you report an address change?",
+    "options": [
+      "60 days",
+      "1 week",
+      "1 month",
+      "3 months"
+    ],
+    "answer": 1,
+    "explanation": "A driver must report an address change to the MVC within one week, including when moving out of New Jersey.",
+    "page": 4,
+    "scene": "You arrive at New Jersey City Hall. The clerk checks your records.",
+    "updated_from_submission": false
+  },
+  {
+    "id": "q02",
+    "number": 2,
+    "chapter": 1,
+    "topic": "Licensing & GDL",
+    "question": "How many primary documents are required for identity verification?",
+    "options": [
+      "1+",
+      "2+",
+      "3+",
+      "4+"
+    ],
+    "answer": 0,
+    "explanation": "Standard applicants must provide at least one primary and one secondary identity document, totaling at least six ID points.",
+    "page": 9,
+    "scene": "The ID verification booth opens. The countdown begins.",
+    "updated_from_submission": false
+  },
+  {
+    "id": "q03",
+    "number": 3,
+    "chapter": 1,
+    "topic": "Licensing & GDL",
+    "question": "Where must GDL decals be displayed?",
+    "options": [
+      "Top left corner of the front license plate",
+      "Top right corner of the rear license plate",
+      "Top left corner of front and rear license plates",
+      "Top right corner of front and rear license plates"
+    ],
+    "answer": 2,
+    "explanation": "Drivers under 21 using a GDL permit or probationary license display a reflective decal on the top-left corner of each license plate.",
+    "page": 19,
+    "scene": "A new driver pulls up at the learner-permit checkpoint.",
+    "updated_from_submission": false
+  },
+  {
+    "id": "q04",
+    "number": 4,
+    "chapter": 2,
+    "topic": "Licensing & GDL",
+    "question": "How many questions are on the knowledge test?",
+    "options": [
+      "25 questions",
+      "40 questions",
+      "45 questions",
+      "50 questions"
+    ],
+    "answer": 3,
+    "explanation": "The NJ knowledge test has 50 questions, in addition to an organ-donation survey question.",
+    "page": 30,
+    "scene": "A road-test kiosk flashes a licensing question.",
+    "updated_from_submission": false
+  },
+  {
+    "id": "q05",
+    "number": 5,
+    "chapter": 2,
+    "topic": "Licensing & GDL",
+    "question": "What vision is required for a basic license applicant?",
+    "options": [
+      "20/40",
+      "20/30",
+      "20/50",
+      "20/70"
+    ],
+    "answer": 2,
+    "explanation": "A basic license applicant needs 20/50 vision with or without corrective lenses, with additional conditions for one-eyed vision.",
+    "page": 31,
+    "scene": "You enter the vision-screening station.",
+    "updated_from_submission": false
+  },
+  {
+    "id": "q06",
+    "number": 6,
+    "chapter": 2,
+    "topic": "Licensing & GDL",
+    "question": "What is the required score on the knowledge test?",
+    "options": [
+      "60%",
+      "70%",
+      "75%",
+      "80%"
+    ],
+    "answer": 3,
+    "explanation": "A passing knowledge-test score is 80 percent: 40 correct answers out of 50 questions.",
+    "page": 31,
+    "scene": "The final permit checkpoint tests your knowledge.",
+    "updated_from_submission": false
+  },
+  {
+    "id": "q07",
+    "number": 7,
+    "chapter": 3,
+    "topic": "Vehicle Safety & Rules",
+    "question": "According to the NJ manual's safety advice, children of what age or younger should ride in the back seat?",
+    "options": [
+      "10 years and younger",
+      "12 years and younger",
+      "13 years and younger",
+      "15 years and younger"
+    ],
+    "answer": 1,
+    "explanation": "The manual advises that children age 12 and younger ride in the back seat. This is a safety recommendation, not a minimum legal front-seat age.",
+    "page": 44,
+    "scene": "A family car approaches the neighborhood safety zone.",
+    "updated_from_submission": true
+  },
+  {
+    "id": "q08",
+    "number": 8,
+    "chapter": 3,
+    "topic": "Vehicle Safety & Rules",
+    "question": "Who must wear a seatbelt?",
+    "options": [
+      "Driver and front seat passenger",
+      "Passengers under the age of 18 and the driver",
+      "All front seat passengers and passengers under the age of 18",
+      "All passengers"
+    ],
+    "answer": 3,
+    "explanation": "Everyone in the vehicle should be buckled up. New Jersey has seat-belt requirements for all seating positions.",
+    "page": 44,
+    "scene": "You're rolling past a busy pedestrian crossing.",
+    "updated_from_submission": false
+  },
+  {
+    "id": "q09",
+    "number": 9,
+    "chapter": 3,
+    "topic": "Vehicle Safety & Rules",
+    "question": "Which of these symptom groups may indicate carbon monoxide poisoning inside a vehicle?",
+    "options": [
+      "You smell smoke",
+      "You see a thick, gray gas",
+      "You experience headache, dizziness, loss of consciousness, nausea/vomiting, chest pain, or confusion",
+      "Your temperature increases"
+    ],
+    "answer": 2,
+    "explanation": "CO is odorless and colorless; possible symptoms include headache, dizziness, nausea, confusion, chest pain, and loss of consciousness. It can be fatal before symptoms appear.",
+    "page": 48,
+    "scene": "A vehicle's cabin warning indicator lights up.",
+    "updated_from_submission": true
+  },
+  {
+    "id": "q10",
+    "number": 10,
+    "chapter": 4,
+    "topic": "Vehicle Safety & Rules",
+    "question": "What is the speed limit on non-posted rural roadways?",
+    "options": [
+      "25 mph",
+      "35 mph",
+      "50 mph",
+      "55 mph"
+    ],
+    "answer": 2,
+    "explanation": "Unless otherwise posted, the listed speed limit on rural roadways with no posted limit is 50 mph.",
+    "page": 62,
+    "scene": "An unmarked rural highway appears ahead.",
+    "updated_from_submission": false
+  },
+  {
+    "id": "q11",
+    "number": 11,
+    "chapter": 4,
+    "topic": "Vehicle Safety & Rules",
+    "question": "In which scenario is passing permitted?",
+    "options": [
+      "Both center lines are solid",
+      "One center line is broken on your side",
+      "One center line is broken, but it is on the opposite side",
+      "Both center lines are broken, but you are within 50 feet of an intersection"
+    ],
+    "answer": 1,
+    "explanation": "A center line broken on your side permits passing when otherwise safe and legal; solid lines on your side prohibit passing.",
+    "page": 64,
+    "scene": "The road splits into opposing traffic lanes.",
+    "updated_from_submission": false
+  },
+  {
+    "id": "q12",
+    "number": 12,
+    "chapter": 4,
+    "topic": "Vehicle Safety & Rules",
+    "question": "On a two-lane road, how far must you stop from a school bus displaying flashing red lights?",
+    "options": [
+      "25 feet",
+      "50 feet",
+      "20 feet",
+      "35 feet"
+    ],
+    "answer": 0,
+    "explanation": "On a two-lane road with a school bus displaying flashing red lights, stop at least 25 feet away.",
+    "page": 77,
+    "scene": "A school bus stops in front of you with red lights flashing.",
+    "updated_from_submission": true
+  },
+  {
+    "id": "q13",
+    "number": 13,
+    "chapter": 5,
+    "topic": "Defensive Driving & BAC",
+    "question": "What is the car length rule for following distance?",
+    "options": [
+      "One car length back per 10 mph",
+      "Two car lengths back per 10 mph",
+      "One car length back per 20 mph",
+      "One car length back"
+    ],
+    "answer": 0,
+    "explanation": "A common following-distance rule is about one car length (20 feet) for every 10 mph. The three-second-plus rule is another method.",
+    "page": 94,
+    "scene": "Your car approaches the following-distance checkpoint.",
+    "updated_from_submission": false
+  },
+  {
+    "id": "q14",
+    "number": 14,
+    "chapter": 5,
+    "topic": "Defensive Driving & BAC",
+    "question": "What is the minimum time gap recommended by the three-seconds-plus following-distance rule?",
+    "options": [
+      "2 seconds",
+      "3 seconds",
+      "4 seconds",
+      "5 seconds"
+    ],
+    "answer": 1,
+    "explanation": "The three-seconds-plus rule requires at least three seconds between your car and the vehicle ahead at a fixed roadside marker.",
+    "page": 95,
+    "scene": "Traffic thickens on the expressway.",
+    "updated_from_submission": true
+  },
+  {
+    "id": "q15",
+    "number": 15,
+    "chapter": 5,
+    "topic": "Defensive Driving & BAC",
+    "question": "At approximately what speed can hydroplaning begin on a wet road?",
+    "options": [
+      "60 mph",
+      "50 mph",
+      "45 mph",
+      "35 mph"
+    ],
+    "answer": 3,
+    "explanation": "The manual says hydroplaning can begin at about 35 mph, with risk increasing as speed increases.",
+    "page": 97,
+    "scene": "Rain pours onto the city bypass.",
+    "updated_from_submission": true
+  },
+  {
+    "id": "q16",
+    "number": 16,
+    "chapter": 6,
+    "topic": "Defensive Driving & BAC",
+    "question": "Which one of these is a factor that determines blood alcohol concentration?",
+    "options": [
+      "Body weight",
+      "Type of alcohol",
+      "Age",
+      "Tiredness"
+    ],
+    "answer": 0,
+    "explanation": "The four BAC factors listed in the manual are amount consumed, body weight, speed of drinking, and food eaten.",
+    "page": 115,
+    "scene": "A checkpoint asks you about safe driving and alcohol.",
+    "updated_from_submission": false
+  },
+  {
+    "id": "q17",
+    "number": 17,
+    "chapter": 6,
+    "topic": "Defensive Driving & BAC",
+    "question": "For drivers age 21 or older, what BAC is at or above New Jersey's statutory DUI threshold?",
+    "options": [
+      "0.03%+",
+      "0.04%+",
+      "0.08%+",
+      "0.10%+"
+    ],
+    "answer": 2,
+    "explanation": "A BAC of 0.08 percent or higher violates the adult BAC limit; impairment can make driving illegal even below that level.",
+    "page": 115,
+    "scene": "The DUI safety barrier is up ahead.",
+    "updated_from_submission": true
+  },
+  {
+    "id": "q18",
+    "number": 18,
+    "chapter": 6,
+    "topic": "Defensive Driving & BAC",
+    "question": "What does it mean to be a good host in terms of alcohol according to the driver’s manual?",
+    "options": [
+      "Serving the best quality alcohol to your guests",
+      "Making sure to offer everyone a drink",
+      "Helping your friends into their car, so they can drive home, since they are drunk",
+      "Not letting someone drive themself home if they are drunk"
+    ],
+    "answer": 3,
+    "explanation": "A responsible host should not let an intoxicated guest drive and should arrange safe transportation or a place to stay.",
+    "page": 116,
+    "scene": "You're hosting passengers after a community celebration.",
+    "updated_from_submission": false
+  },
+  {
+    "id": "q19",
+    "number": 19,
+    "chapter": 7,
+    "topic": "Penalties & Sharing",
+    "question": "What is implied consent law?",
+    "options": [
+      "You are required to let officers search your vehicle when you are pulled over",
+      "You are required to submit to a breath test, following an arrest for intoxication, from an officer or hospital staff with penalties given if you refuse",
+      "You do not have to submit to a breath test, following an arrest for intoxication, from an officer or hospital staff",
+      "You are required to let officers change your engine if it does not work"
+    ],
+    "answer": 1,
+    "explanation": "On NJ roadways, motorists consent to an authorized breath test after an intoxicated-driving arrest. Refusal can lead to serious penalties.",
+    "page": 127,
+    "scene": "A police breath-test checkpoint stands near the courthouse.",
+    "updated_from_submission": false
+  },
+  {
+    "id": "q20",
+    "number": 20,
+    "chapter": 7,
+    "topic": "Penalties & Sharing",
+    "question": "Up to how many points may be deducted after a full year with no violation or suspension and driving privileges in good standing?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": 2,
+    "explanation": "Up to three points may be deducted after a full violation-free, suspension-free year in good standing; the balance cannot go below zero.",
+    "page": 137,
+    "scene": "The MVC points counter flashes on the dashboard.",
+    "updated_from_submission": true
+  },
+  {
+    "id": "q21",
+    "number": 21,
+    "chapter": 7,
+    "topic": "Penalties & Sharing",
+    "question": "A driver that accumulates 6+ points in 3 years is subject to …",
+    "options": [
+      "A surcharge of $150 for the 6 points plus $25 for every additional point",
+      "A $1,100 fine",
+      "$15 fine per point",
+      "Community service"
+    ],
+    "answer": 0,
+    "explanation": "Six points posted within three years cause a $150 surcharge, plus $25 for each additional point.",
+    "page": 136,
+    "scene": "An enforcement camera checks your point record.",
+    "updated_from_submission": false
+  },
+  {
+    "id": "q22",
+    "number": 22,
+    "chapter": 8,
+    "topic": "Penalties & Sharing",
+    "question": "In most cases at intersections, which road user has priority while crossing the roadway?",
+    "options": [
+      "A driver",
+      "A bicycle",
+      "A pedestrian",
+      "A motorcycle"
+    ],
+    "answer": 2,
+    "explanation": "In most cases pedestrians have priority at intersections, including unmarked crosswalks. Drivers must obey applicable signals and controls.",
+    "page": 144,
+    "scene": "A pedestrian approaches an intersection downtown.",
+    "updated_from_submission": true
+  },
+  {
+    "id": "q23",
+    "number": 23,
+    "chapter": 8,
+    "topic": "Penalties & Sharing",
+    "question": "Why should you always leave plenty of room for motorcycles on the road?",
+    "options": [
+      "They need more room to turn",
+      "They need more room to release exhaust",
+      "They need more room to speed up",
+      "They have shorter stopping distances than cars"
+    ],
+    "answer": 3,
+    "explanation": "The manual warns that motorcycles may brake in a shorter distance than other vehicles, so do not follow closely.",
+    "page": 146,
+    "scene": "A motorcycle rides ahead on a narrow street.",
+    "updated_from_submission": false
+  },
+  {
+    "id": "q24",
+    "number": 24,
+    "chapter": 8,
+    "topic": "Penalties & Sharing",
+    "question": "What are blind spots?",
+    "options": [
+      "Areas where the driver cannot see you",
+      "Areas where you cannot see the driver",
+      "Designated areas where blind people can drive",
+      "Designated areas where everyone on the road can see you"
+    ],
+    "answer": 0,
+    "explanation": "A truck's No-Zones are areas its driver cannot see clearly, including major blind spots at the sides, front, and rear.",
+    "page": 147,
+    "scene": "A huge delivery truck blocks part of the skyline.",
+    "updated_from_submission": false
+  },
+  {
+    "id": "q25",
+    "number": 25,
+    "chapter": 9,
+    "topic": "Vehicle Info & Signs",
+    "question": "What is the maximum fine for a license-plate cover that obscures lettering?",
+    "options": [
+      "$50",
+      "$100",
+      "$125",
+      "$130"
+    ],
+    "answer": 1,
+    "explanation": "Covers or holders that hide any letters on a license plate can lead to a fine of up to $100.",
+    "page": 159,
+    "scene": "The inspection district checks your plate visibility.",
+    "updated_from_submission": true
+  },
+  {
+    "id": "q26",
+    "number": 26,
+    "chapter": 9,
+    "topic": "Vehicle Info & Signs",
+    "question": "How often must a qualifying gasoline-fueled NJ passenger vehicle, model year 1996 or newer and more than five model years old, pass inspection?",
+    "options": [
+      "Every year",
+      "Every year and a half",
+      "Never",
+      "Every two years"
+    ],
+    "answer": 3,
+    "explanation": "Qualifying gasoline passenger vehicles more than five model years old, model year 1996 or newer, need inspection every two years.",
+    "page": 160,
+    "scene": "You pass a New Jersey emissions inspection center.",
+    "updated_from_submission": true
+  },
+  {
+    "id": "q27",
+    "number": 27,
+    "chapter": 9,
+    "topic": "Vehicle Info & Signs",
+    "question": "According to the NJ Driver Manual, what must be shown on the title of a vehicle classified under the Lemon Law?",
+    "options": [
+      "Its annual inspection date",
+      "The vehicle's insurance provider",
+      "Its Lemon Law classification",
+      "The driver's points total"
+    ],
+    "answer": 2,
+    "explanation": "The manual specifically says a vehicle classified under the Lemon Law must have that classification shown on the title.",
+    "page": 158,
+    "scene": "An MVC vehicle-title station appears in the city center.",
+    "updated_from_submission": true
+  },
+  {
+    "id": "q28",
+    "number": 28,
+    "chapter": 11,
+    "topic": "Vehicle Info & Signs",
+    "question": "What are warning signs?",
+    "options": [
+      "Guide motorists to a destination by clearly identifying the route",
+      "Warn motorists of hazards and dangers ahead that are difficult to see",
+      "Warn motorists about incoming traffic",
+      "Regulate traffic and movement"
+    ],
+    "answer": 1,
+    "explanation": "Warning signs alert motorists to roadway hazards or conditions that require caution.",
+    "page": 214,
+    "scene": "You enter a roadway marked with temporary warning signs.",
+    "updated_from_submission": false
+  },
+  {
+    "id": "q29",
+    "number": 29,
+    "chapter": 11,
+    "topic": "Vehicle Info & Signs",
+    "question": "What are guidance signs?",
+    "options": [
+      "Guide motorists to a destination by clearly identifying the route",
+      "Warn motorists of hazards and dangers ahead that are difficult to see",
+      "Warn motorists about incoming traffic",
+      "Regulate traffic and movement"
+    ],
+    "answer": 0,
+    "explanation": "Guidance signs identify destinations and routes so drivers can navigate toward them.",
+    "page": 215,
+    "scene": "The GPS switches to destination guidance mode.",
+    "updated_from_submission": false
+  },
+  {
+    "id": "q30",
+    "number": 30,
+    "chapter": 11,
+    "topic": "Vehicle Info & Signs",
+    "question": "What do orange, diamond-shaped traffic signs generally warn about?",
+    "options": [
+      "Stop",
+      "School zone",
+      "Railroad crossing",
+      "Construction zone"
+    ],
+    "answer": 3,
+    "explanation": "Orange diamond-shaped signs identify road construction and maintenance warnings, including detours and lane changes.",
+    "page": 214,
+    "scene": "Road construction blocks the final exit lane.",
+    "updated_from_submission": true
+  }
+]

@@ -1,0 +1,164 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1">
+  <title>Traffic Trouble</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <script src="/static/game.js" defer></script>
+</head>
+<body>
+  <div class="container">
+
+    <header>
+      <div class="brand">🚦 Traffic Trouble</div>
+    </header>
+
+    <section id="home" class="card">
+      <h1>Escape the City</h1>
+      <p>15 random questions. Wrong answer: +8 seconds. Fastest wins.</p>
+
+      <label for="name">Your player name</label>
+      <input id="name" maxlength="18"
+             placeholder="e.g., Alex"
+             autocomplete="nickname">
+
+      <div class="home-actions">
+        <button id="create">Create a race</button>
+
+        <div class="join-row">
+          <input id="join-code" maxlength="5"
+                 placeholder="Room code"
+                 aria-label="Room code">
+          <button id="join" class="secondary">
+            Join race
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section id="room-screen" hidden>
+
+      <div class="room-head card">
+        <div>
+          <small>ROOM CODE</small>
+          <strong id="room-code" class="room-code">-----</strong>
+        </div>
+
+        <div>
+          <small>YOU ARE</small>
+          <strong id="your-name">Player</strong>
+        </div>
+
+        <button id="leave" class="secondary small">
+          Leave room
+        </button>
+      </div>
+
+      <div class="columns">
+        <main class="card">
+
+          <section id="lobby" hidden>
+            <h2>Waiting for players</h2>
+            <p>Share the room code. The host starts the race.</p>
+
+            <details class="game-rules">
+              <summary>📋 Game Rules</summary>
+
+              <div class="rules-content">
+                <ol>
+                  <li>Each race has 15 randomly selected questions.</li>
+                  <li>Everyone in the room gets the same questions.</li>
+                  <li>Answer each question as quickly as possible.</li>
+                  <li>Every incorrect answer adds 8 seconds.</li>
+                  <li>Final time includes all penalties.</li>
+                  <li>The player with the lowest final time wins.</li>
+                  <li>After finishing, wait for everyone else.</li>
+                </ol>
+              </div>
+            </details>
+
+            <div class="lobby-controls">
+              <button id="start" hidden>
+                Start the race
+              </button>
+              <span id="waiting" class="muted">
+                Waiting for host to start…
+              </span>
+            </div>
+          </section>
+
+          <section id="countdown" hidden>
+            <h2>Starting in…</h2>
+            <p class="count" id="count">4</p>
+          </section>
+
+          <section id="racing" hidden>
+
+            <div class="stat-row">
+              <span>Time</span>
+              <strong id="race-time">00:00.0</strong>
+            </div>
+
+            <div class="road-label">
+              <span id="progress-text">
+                0 / 15 checkpoints
+              </span>
+              <span id="penalty-text">
+                Traffic delays: +0s
+              </span>
+            </div>
+
+            <div class="road" aria-label="Race progress">
+              <div id="road-fill"></div>
+              <span id="car">🚗</span>
+            </div>
+
+            <section id="question-panel">
+              <small id="question-label">
+                QUESTION 1 OF 15
+              </small>
+              <h2 id="question">Question loads here</h2>
+              <div id="choices" class="choices"></div>
+            </section>
+
+            <section id="feedback" hidden>
+              <h2 id="feedback-title">Correct!</h2>
+              <p id="feedback-rule"></p>
+              <p class="source" id="feedback-source"></p>
+              <button id="next">
+                Continue driving →
+              </button>
+            </section>
+
+            <section id="finished" hidden>
+              <h2 id="finish-title">🏁 Completed</h2>
+              <p id="finish-stats"></p>
+              <p id="finish-status">
+                Waiting for others to finish…
+              </p>
+              <button id="new-room" hidden>
+                New race
+              </button>
+            </section>
+
+          </section>
+        </main>
+
+        <aside class="card">
+          <div class="board-head">
+            <h2>Leaderboard</h2>
+            <span id="player-count">0 players</span>
+          </div>
+          <ol id="board"></ol>
+        </aside>
+      </div>
+    </section>
+
+    <div id="error" role="alert" hidden></div>
+
+  </div>
+</body>
+</html>
